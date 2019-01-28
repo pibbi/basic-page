@@ -58,6 +58,7 @@ header h1 {
   font-weight: 900;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
+  text-transform:uppercase;
   margin-top: 1em;
   color: #008B8B;
 
@@ -101,7 +102,7 @@ article figcaption {
   justify-content: space-evenly;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #008B8B;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #008B8B;
@@ -111,9 +112,9 @@ a.button {
   font-size: 80%;
 }
 a.button:hover, a.button:active  {
-  border: 1px solid #444;
+  border: 1px solid #777;
   text-decoration: none;
-  color: #444;
+  color: #777;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
